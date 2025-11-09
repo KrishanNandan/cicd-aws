@@ -5,3 +5,5 @@ import { CicdAwsStack } from '../lib/cicd-aws-stack';
 const app = new cdk.App();
 new CicdAwsStack(app, 'CicdAwsStack', {
 });
+
+app.synth();
